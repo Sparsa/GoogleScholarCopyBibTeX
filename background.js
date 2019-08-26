@@ -1,4 +1,4 @@
-chrome.runtime.onMessage.addListener(
+browser.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
     var url = request.url;
     fetch(url)
